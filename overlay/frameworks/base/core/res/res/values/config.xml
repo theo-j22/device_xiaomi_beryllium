@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-/**
+<?xml version="1.0" encoding="utf-8"?> <!-- /**
  * Copyright (c) 2009, The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -237,11 +235,22 @@
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">86.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
-    <dimen name="rounded_corner_radius_top">104px</dimen>
 
     <!-- Whether the device has outdated qti-telephony-common.jar -->
     <bool name="config_oldQtiTelephony">false</bool>
 
     <!-- Whether device has a physical display cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
+
+     <string-array name="config_displayModeMappings" translatable="false">
+        <item>OLED_native:standard</item>
+        <item>38oled_native:standard</item>
+        <item>00default:dynamic</item>
+        <item>sRGB_d65:srgb</item>
+        <item>srgb_d65:srgb</item>
+     </string-array>
+
+    <!-- Should we filter any display modes which are unampped? -->
+    <bool name="config_filterDisplayModes">true</bool>    
+
 </resources>
