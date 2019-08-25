@@ -62,8 +62,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl
 
 # PocketMode
-PRODUCT_PACKAGES += \
-    XiaomiPocketMode
+#PRODUCT_PACKAGES += \
+#    XiaomiPocketMode
 
 # Build Official
 export export HAVOC_BUILD_TYPE=Official
